@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(void){
+	int a, volumen;
+	printf("Calcular el volumen de un cubo \n");
+	printf("Dame la magnitud de uno de sus lados ");
+	scanf("%d", &a);
+	
+	volumen=(a*a)*a;
+	
+	
+	printf("El volumen del cubo es %d unidades cubicas", volumen);
+	
+	return 0;
+	}
